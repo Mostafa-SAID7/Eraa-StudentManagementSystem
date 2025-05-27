@@ -77,4 +77,3 @@ This is a beginner-friendly **Student Management System** built using **Object-O
   - String interpolation (`$""`)
 - Instead, it uses **classic OOP and full method definitions** to reinforce beginner concepts.
 
----
