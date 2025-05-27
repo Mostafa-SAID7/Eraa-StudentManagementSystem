@@ -2,15 +2,11 @@
 
 This is a beginner-friendly **Student Management System** built using **Object-Oriented Programming (OOP)** principles in C#. The project is implemented as a **console application** without the use of databases or advanced C# features, making it ideal for students learning OOP basics.
 <p align="center">
-  <a href="https://drive.google.com/file/d/1nDRjhbqct12RlGyURuJaomuu0FQKosYx/view?usp=sharing"
-     style="display:inline-flex; align-items:center; background-color:#D44638; color:#fff; font-weight:bold;
-            padding:10px 20px; text-decoration:none; border-radius:30px; box-shadow:0 4px 6px rgba(0,0,0,0.15);
-            font-family: Arial, sans-serif; font-size: 16px;"
-     target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon" width="24" height="24" style="margin-right:10px;" />
-    View: Struct vs Class vs Record (PDF)
+  <a href="https://drive.google.com/file/d/1nDRjhbqct12RlGyURuJaomuu0FQKosYx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/PDF-View%20Struct%20vs%20Class%20vs%20Record-D44638?style=flat&logo=adobe&logoColor=white" alt="View PDF" />
   </a>
 </p>
+
 
 ---
 
