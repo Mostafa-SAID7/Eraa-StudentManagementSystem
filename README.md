@@ -2,18 +2,15 @@
 
 This is a beginner-friendly **Student Management System** built using **Object-Oriented Programming (OOP)** principles in C#. The project is implemented as a **console application** without the use of databases or advanced C# features, making it ideal for students learning OOP basics.
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon" width="20" height="20" style="margin-right:8px;" 
-    
-  <a href="https://drive.google.com/file/d/1nDRjhbqct12RlGyURuJaomuu0FQKosYx/view?usp=sharing" 
-     style="display:inline-flex; align-items:center; background-color:#1DA1F2; color:#fff; font-weight:bold; 
-            padding:12px 25px; text-decoration:none; border-radius:30px; box-shadow:0 4px 6px rgba(0,0,0,0.1);" 
-     target="_blank" 
-     rel="noopener noreferrer">
-    
-  </a>/>
-  View: Struct vs Class vs Record (PDF)
+  <a href="https://drive.google.com/file/d/1nDRjhbqct12RlGyURuJaomuu0FQKosYx/view?usp=sharing"
+     style="display:inline-flex; align-items:center; background-color:#D44638; color:#fff; font-weight:bold;
+            padding:10px 20px; text-decoration:none; border-radius:30px; box-shadow:0 4px 6px rgba(0,0,0,0.15);
+            font-family: Arial, sans-serif; font-size: 16px;"
+     target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon" width="24" height="24" style="margin-right:10px;" />
+    View: Struct vs Class vs Record (PDF)
+  </a>
 </p>
-
 
 ---
 
