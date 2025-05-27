@@ -11,7 +11,15 @@ This is a beginner-friendly **Student Management System** built using **Object-O
   </a>
 </p>
 
-
+<p align="center">
+  <a href="mailto:m.ssaid356@gmail.com" 
+     style="display:inline-block; background-color:#D44638; color:#fff; font-weight:bold; 
+            padding:12px 25px; text-decoration:none; border-radius:30px; box-shadow:0 4px 6px rgba(0,0,0,0.1);" 
+     target="_blank" 
+     rel="noopener noreferrer">
+    📧 Contact: m.ssaid356@gmail.com
+  </a>
+</p>
 
 ---
 
