@@ -37,49 +37,118 @@ This is a beginner-friendly **Student Management System** built using **Object-O
 ---
 
 ## 🏗️ Classes Used
+<h3 align="left" style="color:#2F80ED;">📘 Class: <code style="background:#f4f4f4; padding:2px 6px; border-radius:4px;">Student</code></h3>
 
-### `Student`
-- **Properties**:
-  - `int StudentId`
-  - `string Name`
-  - `int Age`
-  - `List<Course> Courses`
-- **Methods**:
-  - `bool Enroll(Course course)`
-  - `string PrintDetails()`
-  - `void UpdateInfo(string name, int age)`
+<table style="width:100%; border-collapse:collapse; margin-bottom:20px;">
+  <tr style="background:#e8f0fe; text-align:center; font-weight:bold; color:#2F80ED;">
+    <td style="border:1px solid #ddd; padding:12px; width:50%;">📦 Properties</td>
+    <td style="border:1px solid #ddd; padding:12px; width:50%;">🔧 Methods</td>
+  </tr>
+  <tr style="vertical-align:top;">
+    <td style="border:1px solid #ddd; padding:12px;">
+      <ul style="list-style-type:none; padding-left:0; color:#333; font-family: 'Courier New', Courier, monospace;">
+        <li><code>int StudentId</code></li>
+        <li><code>string Name</code></li>
+        <li><code>int Age</code></li>
+        <li><code>List&lt;Course&gt; Courses</code></li>
+      </ul>
+    </td>
+    <td style="border:1px solid #ddd; padding:12px;">
+      <ul style="list-style-type:none; padding-left:0; color:#333; font-family: 'Courier New', Courier, monospace;">
+        <li><code>bool Enroll(Course course)</code></li>
+        <li><code>string PrintDetails()</code></li>
+        <li><code>void UpdateInfo(string name, int age)</code></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-### `Instructor`
-- **Properties**:
-  - `int InstructorId`
-  - `string Name`
-  - `string Specialization`
-- **Methods**:
-  - `string PrintDetails()`
+---
 
-### `Course`
-- **Properties**:
-  - `int CourseId`
-  - `string Title`
-  - `Instructor Instructor`
-- **Methods**:
-  - `string PrintDetails()`
+<h3 align="left" style="color:#2F80ED;">📘 Class: <code style="background:#f4f4f4; padding:2px 6px; border-radius:4px;">Instructor</code></h3>
 
-### `StudentManager`
-- **Description**: Manages lists of Students, Courses, and Instructors.
-- **Methods**:
-  - `bool AddStudent(Student student)`
-  - `bool UpdateStudent(int studentId, string newName, int newAge)`
-  - `bool DeleteStudent(int studentId)`
-  - `bool AddInstructor(Instructor instructor)`
-  - `bool AddCourse(Course course)`
-  - `bool EnrollStudentInCourse(int studentId, int courseId)`
-  - `Student FindStudent(string input)`
-  - `Instructor FindInstructor(int instructorId)`
-  - `Course FindCourse(string input)`
-  - `bool IsStudentEnrolledInCourse(int studentId, int courseId)`
-  - `string GetInstructorNameByCourseTitle(string title)`
-  - Methods to list all Students, Courses, and Instructors with detailed display
+<table style="width:100%; border-collapse:collapse; margin-bottom:20px;">
+  <tr style="background:#e8f0fe; text-align:center; font-weight:bold; color:#2F80ED;">
+    <td style="border:1px solid #ddd; padding:12px; width:50%;">📦 Properties</td>
+    <td style="border:1px solid #ddd; padding:12px; width:50%;">🔧 Methods</td>
+  </tr>
+  <tr style="vertical-align:top;">
+    <td style="border:1px solid #ddd; padding:12px;">
+      <ul style="list-style-type:none; padding-left:0; color:#333; font-family: 'Courier New', Courier, monospace;">
+        <li><code>int InstructorId</code></li>
+        <li><code>string Name</code></li>
+        <li><code>string Specialization</code></li>
+      </ul>
+    </td>
+    <td style="border:1px solid #ddd; padding:12px;">
+      <ul style="list-style-type:none; padding-left:0; color:#333; font-family: 'Courier New', Courier, monospace;">
+        <li><code>string PrintDetails()</code></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+<h3 align="left" style="color:#2F80ED;">📘 Class: <code style="background:#f4f4f4; padding:2px 6px; border-radius:4px;">Course</code></h3>
+
+<table style="width:100%; border-collapse:collapse; margin-bottom:20px;">
+  <tr style="background:#e8f0fe; text-align:center; font-weight:bold; color:#2F80ED;">
+    <td style="border:1px solid #ddd; padding:12px; width:50%;">📦 Properties</td>
+    <td style="border:1px solid #ddd; padding:12px; width:50%;">🔧 Methods</td>
+  </tr>
+  <tr style="vertical-align:top;">
+    <td style="border:1px solid #ddd; padding:12px;">
+      <ul style="list-style-type:none; padding-left:0; color:#333; font-family: 'Courier New', Courier, monospace;">
+        <li><code>int CourseId</code></li>
+        <li><code>string Title</code></li>
+        <li><code>Instructor Instructor</code></li>
+      </ul>
+    </td>
+    <td style="border:1px solid #ddd; padding:12px;">
+      <ul style="list-style-type:none; padding-left:0; color:#333; font-family: 'Courier New', Courier, monospace;">
+        <li><code>string PrintDetails()</code></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+<h3 align="left" style="color:#2F80ED;">📘 Class: <code style="background:#f4f4f4; padding:2px 6px; border-radius:4px;">StudentManager</code></h3>
+
+<table style="width:100%; border-collapse:collapse; margin-bottom:40px;">
+  <tr style="background:#e8f0fe; font-weight:bold; color:#2F80ED;">
+    <td colspan="2" style="border:1px solid #ddd; padding:12px; text-align:center; font-size:1.1em;">📃 Description</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border:1px solid #ddd; padding:12px; font-style:italic; color:#444; text-align:center;">
+      Manages lists of <code>Students</code>, <code>Courses</code>, and <code>Instructors</code>.
+    </td>
+  </tr>
+  <tr style="background:#e8f0fe; text-align:center; font-weight:bold; color:#2F80ED;">
+    <td style="border:1px solid #ddd; padding:12px; width:50%;">🔧 Methods</td>
+    <td style="border:1px solid #ddd; padding:12px; width:50%;"></td>
+  </tr>
+  <tr style="vertical-align:top;">
+    <td colspan="2" style="border:1px solid #ddd; padding:12px; font-family: 'Courier New', Courier, monospace; color:#333;">
+      <ul style="list-style-type:disc; padding-left:20px;">
+        <li><code>bool AddStudent(Student student)</code></li>
+        <li><code>bool UpdateStudent(int studentId, string newName, int newAge)</code></li>
+        <li><code>bool DeleteStudent(int studentId)</code></li>
+        <li><code>bool AddInstructor(Instructor instructor)</code></li>
+        <li><code>bool AddCourse(Course course)</code></li>
+        <li><code>bool EnrollStudentInCourse(int studentId, int courseId)</code></li>
+        <li><code>Student FindStudent(string input)</code></li>
+        <li><code>Instructor FindInstructor(int instructorId)</code></li>
+        <li><code>Course FindCourse(string input)</code></li>
+        <li><code>bool IsStudentEnrolledInCourse(int studentId, int courseId)</code></li>
+        <li><code>string GetInstructorNameByCourseTitle(string title)</code></li>
+        <li><em>Methods to list all Students, Courses, and Instructors with detailed display</em></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
