@@ -1,4 +1,10 @@
-# Eraa-StudentManagementSystem
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <h1 style="margin: 0;">Eraa-StudentManagementSystem</h1>
+  <a href="https://www.facebook.com/eraasoft" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Built%20with-Eraa%20Soft%20Training%20Program-1877F2?style=flat&logo=facebook&logoColor=white" alt="Eraa Soft Training Program" />
+  </a>
+</div>
+
 
 This is a beginner-friendly **Student Management System** built using **Object-Oriented Programming (OOP)** principles in C#. The project is implemented as a **console application** without databases or advanced C# features, making it ideal for students learning OOP basics.
 
