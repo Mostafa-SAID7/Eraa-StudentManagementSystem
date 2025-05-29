@@ -70,10 +70,5 @@ This is a beginner-friendly **Student Management System** built using **Object-O
 
 ## ❗ Notes
 
-- The code avoids modern C# syntax like:
-  - `get; set;`
-  - `=>` (lambda expressions)
-  - LINQ
-  - String interpolation (`$""`)
 - Instead, it uses **classic OOP and full method definitions** to reinforce beginner concepts.
 
