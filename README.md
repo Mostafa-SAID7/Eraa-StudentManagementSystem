@@ -83,19 +83,13 @@ This is a beginner-friendly **Student Management System** built using **Object-O
 
 ---
 
-## 💡 Suggested Enhancements (optional)
-
-- Add sorting and filtering options for students and courses.
-- Persist data to file (e.g., JSON or XML) for saving sessions.
-- Add more detailed instructor-course relationships (e.g., multiple instructors per course).
-- Implement role-based access or command parsing for advanced interaction.
-- Convert to a simple web or GUI app to improve usability and features.
-
----
-
 ## ❗ Notes
 
 - This project prioritizes clear demonstration of **classic OOP** concepts for learners.
 - It uses full method definitions and manual data handling for educational clarity.
 - No external dependencies or database technologies are used.
 - Console color and formatting are minimal but can be extended for better UX.
+## 👨‍💻 Author
+#### Mostafa SAID 
+- Built this project as part of the Eraa Soft training program.
+
