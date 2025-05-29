@@ -12,6 +12,7 @@ namespace StudentManagementSystem
             while (true)
             {
                 Console.WriteLine("\n--- Student Management System ---");
+                Console.Write("Select option: ");
                 Console.WriteLine("1. Add Student");
                 Console.WriteLine("2. Add Instructor");
                 Console.WriteLine("3. Add Course");
@@ -21,10 +22,9 @@ namespace StudentManagementSystem
                 Console.WriteLine("7. Show All Instructors");
                 Console.WriteLine("8. Find Student by ID");
                 Console.WriteLine("9. Find Course by ID");
-                Console.WriteLine("10. Exit");
-                Console.WriteLine("11. Check if Student Enrolled in Course");
-                Console.WriteLine("12. Get Instructor Name by Course Title");
-                Console.Write("Select option: ");
+                Console.WriteLine("10. Check if Student Enrolled in Course");
+                Console.WriteLine("11. Get Instructor Name by Course Title");
+                Console.WriteLine("12. Exit");
                 string option = Console.ReadLine();
 
                 if (option == "1")
@@ -127,11 +127,8 @@ namespace StudentManagementSystem
                         Console.WriteLine("Course not found.");
                     }
                 }
+                
                 else if (option == "10")
-                {
-                    break;
-                }
-                else if (option == "11")
                 {
                     Console.Write("Enter Student ID: ");
                     int studentId = Convert.ToInt32(Console.ReadLine());
@@ -148,12 +145,16 @@ namespace StudentManagementSystem
                         Console.WriteLine("No");
                     }
                 }
-                else if (option == "12")
+                else if (option == "11")
                 {
                     Console.Write("Enter Course Title: ");
                     string title = Console.ReadLine();
                     string name = manager.GetInstructorNameByCourseTitle(title);
                     Console.WriteLine("Instructor: " + name);
+                }
+                else if (option == "12")
+                {
+                    break;
                 }
             }
         }
