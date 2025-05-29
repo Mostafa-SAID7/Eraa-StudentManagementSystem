@@ -9,9 +9,9 @@
    <a href="https://drive.google.com/file/d/1nDRjhbqct12RlGyURuJaomuu0FQKosYx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/PDF-View%20Struct%20vs%20Class%20vs%20Record-D44638?style=flat&logo=adobe&logoColor=white" alt="View PDF" />
   </a>
-  <a>
-    Mostafa SAID 
-  </a>
+ <a href="https://github.com/Mostafa-SAID7" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Author-Mostafa--SAID7-000?style=flat&logo=github&logoColor=white" alt="Author: Mostafa-SAID7" />
+</a>
   </p>
 </div>
 
