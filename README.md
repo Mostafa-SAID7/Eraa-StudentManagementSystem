@@ -1,18 +1,24 @@
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <h1 style="margin: 0;">Eraa-StudentManagementSystem</h1>
+  <p align="center">
+ 
+
   <a href="https://www.facebook.com/eraasoft" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Built%20with-Eraa%20Soft%20Training%20Program-1877F2?style=flat&logo=facebook&logoColor=white" alt="Eraa Soft Training Program" />
   </a>
+   <a href="https://drive.google.com/file/d/1nDRjhbqct12RlGyURuJaomuu0FQKosYx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/PDF-View%20Struct%20vs%20Class%20vs%20Record-D44638?style=flat&logo=adobe&logoColor=white" alt="View PDF" />
+  </a>
+  <a>
+    Mostafa SAID 
+  </a>
+  </p>
 </div>
 
 
 This is a beginner-friendly **Student Management System** built using **Object-Oriented Programming (OOP)** principles in C#. The project is implemented as a **console application** without databases or advanced C# features, making it ideal for students learning OOP basics.
 
-<p align="center">
-  <a href="https://drive.google.com/file/d/1nDRjhbqct12RlGyURuJaomuu0FQKosYx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/PDF-View%20Struct%20vs%20Class%20vs%20Record-D44638?style=flat&logo=adobe&logoColor=white" alt="View PDF" />
-  </a>
-</p>
+
 
 ---
 
@@ -95,13 +101,7 @@ This is a beginner-friendly **Student Management System** built using **Object-O
 - It uses full method definitions and manual data handling for educational clarity.
 - No external dependencies or database technologies are used.
 - Console color and formatting are minimal but can be extended for better UX.
-## 👨‍💻 Author
-#### Mostafa SAID 
-- Built this project as part of the Eraa Soft training program.
-<p align="center">
-  <a href="https://www.facebook.com/eraasoft" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Built%20with-Eraa%20Soft%20Training%20Program-1877F2?style=flat&logo=facebook&logoColor=white" alt="Eraa Soft Training Program" />
-  </a>
-</p>
+
+
 
 
